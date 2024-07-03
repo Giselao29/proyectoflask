@@ -17,12 +17,7 @@ def index_clientes():
     clientes=Servicio.consultar(conexion)
     conexion.close()
     return render_template('/modules/clientes/index.html',clientes=clientes)
-    '''
-    conexion=Servicio.conectar()
-    clientes=Servicio.consultar(conexion)
-    conexion.commit()
-    return render_template('/modules/clientes/index.html',clientes=clientes)
-    '''
+   
 @app.route('/clientes/create')
 def create():
     return render_template('/modules/clientes/create.html')
@@ -64,4 +59,3 @@ def clientes_borrar(id):
 if __name__=='__main__':
     app.run(debug=True)
     
-#LLEGUE AL MINUTO 27
