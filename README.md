@@ -4,4 +4,4 @@
 <br>Fecha de creación: 3/7/2024  
 <br>Nombre y apellido: Gisela Ocampo
 <br>
-<br>Proyecto desarrollado en Python con framework Flask y Sqlite. Se desarrollo aplicando POO y MVC.
+<br>**Proyecto desarrollado en Python con framework Flask y Sqlite. Se desarrollo aplicando POO y MVC.**
