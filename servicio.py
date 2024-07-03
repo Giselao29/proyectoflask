@@ -49,9 +49,8 @@ class Servicio:
         miCursor.execute(Consulta.DELETE,(id,))
         miConexion.commit() 
      
-    #BUSCAR
-       
+    #BUSCAR   
     def buscar(id,miConexion):
         miCursor = miConexion.cursor()
-        miCursor.execute(Consulta.BUSCAR,(id,))
+        miCursor.execute(Consulta.SEARCH,(id,))
         return  miCursor.fetchone()

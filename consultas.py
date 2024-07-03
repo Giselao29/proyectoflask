@@ -1,5 +1,9 @@
 #MODELO
 
+'''
+se crean todas las consultas que se utilizarán en la aplicación y algunas que no se utilizan para futuros cambios
+'''
+
 class Consulta:
 
     CREATE='''
@@ -20,6 +24,6 @@ class Consulta:
     
     DELETE="DELETE from clientes WHERE ID=?"
     
-    BUSCAR="SELECT * from clientes WHERE ID=?"
+    SEARCH="SELECT * from clientes WHERE ID=?"
     
     

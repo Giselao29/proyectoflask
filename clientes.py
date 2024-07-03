@@ -1,5 +1,6 @@
 #MODELO
 
+'''Creación de los datos de cada cliente, sin incorporar el id'''
 class Cliente:
     #Creación del constructor
     def __init__(self, nombre, apellido, email) -> None:
